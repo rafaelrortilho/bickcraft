@@ -4,6 +4,9 @@
     list-style: none;
     text-decoration: none;
   }
+  body {
+    max-width: 100%;
+  }
 
   a {
     color: inherit;
