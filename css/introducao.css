@@ -34,7 +34,9 @@
 
   .introducao h1 {
     margin-bottom: 32px;
-    font: var(--font-2-m) !important;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 600;
     /* font-weight: 600;
     font-size: 64px;
     line-height: 1.125; */

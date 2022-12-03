@@ -33,9 +33,9 @@
     --cor-p5: #332200;
     --gr-1: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
     --gr-2: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
-    --font-1-xxl: "Poppins" 600 64/72;
-    --font-1-xl: "Poppins" 600 32/40;
-    --font-1-l: "Poppins" 400 24/36;
+    --font-1-xxl: "Poppins" 64/72;
+    --font-1-xl: "Poppins" 32/40;
+    --font-1-l: "Poppins"  400 24/36;
     --font-2-l: "Roboto" 400 24/36;
     --font-2-l-b: "Roboto" 500 24/36 1.5% ALLCAPS;
     --font-1-m: "Poppins" 400 18/24;
@@ -46,4 +46,3 @@
     --font-2-xs: "Roboto" 400 14/20;
     --font-1-xs: "Poppins" 600 12/16;
   }
-
