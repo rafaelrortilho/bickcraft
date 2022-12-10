@@ -1,0 +1,67 @@
+  .tecnologia-bg {
+    background: var(--cor-11);
+  }
+
+  .tecnologia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .tecnologia-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .tecnologia-conteudo h2 span {
+    color: var(--cor-p1);
+  }
+
+  .tecnologia-conteudo span {
+    color: var(--cor-5);
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .tecnologia-conteudo h2 {
+    color: var(--cor-0);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+  }
+
+  .tecnologia-conteudo p {
+    color: var(--cor-5);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .link {
+    color: var(--cor-p1);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .componentes h3 {
+    color: var(--cor-0);
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .componentes p {
+    color: var(--cor-5);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
