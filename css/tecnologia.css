@@ -11,7 +11,11 @@
 
   .tecnologia-conteudo {
     padding-top: 160px;
-    padding-bottom: 160px;
+  }
+
+  .tecnologia-conteudo > span {
+    display: block;
+    margin-bottom: 20px;
   }
 
   .tecnologia-img img {
@@ -23,6 +27,10 @@
 
   .tecnologia-conteudo h2 span {
     color: var(--cor-p1);
+    font-family: "Poppins";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
   }
 
   .tecnologia-conteudo span {
@@ -39,6 +47,7 @@
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
+    margin-bottom: 32px;
   }
 
   .tecnologia-conteudo p {
@@ -49,16 +58,26 @@
     line-height: 36px;
   }
 
-  .link {
-    color: var(--cor-p1);
-    font-family: "Poppins";
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
+  .tecnologia-conteudo > p {
+    margin-bottom: 20px;
   }
 
-.componentes {
-}
+  .componentes {
+    margin-top: 80px;
+    padding-bottom: 160px;
+    display: flex;
+    gap: 40px;
+  }
+
+  .componentes h3 {
+    margin-bottom: 8px;
+    width: max-content;
+  }
+
+  .componentes img {
+    width: 24px;
+    margin-bottom: 8px;
+  }
 
   .componentes h3 {
     color: var(--cor-0);
@@ -74,4 +93,27 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  @media (max-width: 800px) {
+    .tecnologia-bg {
+      box-shadow: initial;
+    }
+
+    .tecnologia {
+      grid-template-columns: 1fr;
+    }
+    .texnologia-conteudo {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .tecnologia-img {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .componentes {
+      flex-direction: column;
+    }
   }
